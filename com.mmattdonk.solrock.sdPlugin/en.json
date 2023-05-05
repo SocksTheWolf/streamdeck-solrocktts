@@ -8,8 +8,8 @@
   },
   "Localization": {
     "overlayID": "TTS Overlay ID",
-	"findOverlay": "Finding Overlay ID",
-	"findOverlayDetails": "Paste the Overlay URL link under the sensitive information button into the textbox above!",
-	"openDashboard": "Open Dashboard"
+    "findOverlay": "Finding Overlay ID",
+    "findOverlayDetails": "Paste the Overlay URL link under the sensitive information button into the textbox above!",
+    "openDashboard": "Open Dashboard"
   }
 }
