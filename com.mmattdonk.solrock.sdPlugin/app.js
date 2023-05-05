@@ -1,7 +1,7 @@
 /// <reference path="libs/js/action.js" />
 /// <reference path="libs/js/stream-deck.js" />
 
-const myAction = new Action('com.mmattdonk.solrock.skiptts');
+const skipTTSAction = new Action('com.mmattdonk.solrock.skiptts');
 const APIEndpoint = "https://solrock.mmattdonk.com/api/streamers/";
 const APIKey = "4@K4rLC%G#dn$t!LhRtWVmvEZtstmuA&";
 var OverlayID = "";
@@ -18,7 +18,7 @@ $SD.onDidReceiveGlobalSettings(({payload}) => {
 	// TODO: Grab the streamer ID then use that to be able to rollback tts
 });
 
-myAction.onKeyUp(({ action, context, device, event, payload }) => {
+skipTTSAction.onKeyUp(({ action, context, device, event, payload }) => {
 	if (OverlayID === "") {
 		console.log('OverlayID does not exist, check settings!');
 		$SD.showAlert(context);

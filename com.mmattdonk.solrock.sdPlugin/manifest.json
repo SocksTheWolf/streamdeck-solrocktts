@@ -6,7 +6,7 @@
 	"Name": "Solrock TTS",
 	"Icon": "assets/solrock",
 	"URL": "https://solrock.mmattdonk.com/",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
