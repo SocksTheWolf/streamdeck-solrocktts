@@ -37,6 +37,7 @@ myAction.onKeyUp(({ action, context, device, event, payload }) => {
 				$SD.showOk(context);
 			} else {
 				$SD.showAlert(context);
+				console.log("encountered error: " + req.responseText);
 			}
 		}
 	};
