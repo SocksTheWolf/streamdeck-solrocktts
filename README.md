@@ -1,9 +1,9 @@
 # Solrock TTS Streamdeck Plugin
  A plugin for the Elgato Streamdeck to manage your Solrock TTS overlay without the dashboard open. Currently only supports the Skip TTS function through the API.
  
-# Installing
+# Download/Installing
 
- Go to the releases tab, download the **com.mmattdonk.solrock.streamDeckPlugin** file. Double click to install.
+ [Go to the releases tab](https://github.com/SocksTheWolf/streamdeck-solrocktts/releases/latest/), download the **com.mmattdonk.solrock.streamDeckPlugin** file. Double click to install.
  
 # Set up
 
