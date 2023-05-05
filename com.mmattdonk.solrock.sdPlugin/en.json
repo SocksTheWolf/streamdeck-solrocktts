@@ -1,0 +1,15 @@
+{
+  "Description": "Some buttons to interact with the Solrock TTS Service", 
+  "Name": "Solrock TTS", 
+  "Category": "Solrock TTS", 
+  "com.mmattdonk.solrock.skiptts": {
+    "Name": "Skip TTS", 
+    "Tooltip": "Skips the currently playing TTS"
+  },
+  "Localization": {
+    "overlayID": "TTS Overlay ID",
+	"findOverlay": "Finding Overlay ID",
+	"findOverlayDetails": "Paste the Overlay URL link under the sensitive information button into the textbox above!",
+	"openDashboard": "Open Dashboard"
+  }
+}

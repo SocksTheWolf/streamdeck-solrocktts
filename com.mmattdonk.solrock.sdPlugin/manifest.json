@@ -1,0 +1,40 @@
+{
+	"SDKVersion": 2,
+	"Author": "SocksTheWolf",
+	"CodePath": "app.html",
+	"Description": "Some buttons to interact with the Solrock TTS Service",
+	"Name": "Solrock TTS",
+	"Icon": "assets/solrock",
+	"URL": "https://solrock.mmattdonk.com/",
+	"Version": "1.0.0",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Solrock TTS",
+	"CategoryIcon": "assets/solrock",
+	"Actions": [
+		{
+			"Icon": "assets/skipTTS-action",
+			"Name": "Skip TTS",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "assets/skipTTS"
+				}
+			],
+			"Tooltip": "Skips the currently playing TTS",
+			"UUID": "com.mmattdonk.solrock.skiptts",
+			"PropertyInspectorPath": "property-inspector/inspector.html"
+		}
+	]
+}
