@@ -103,8 +103,10 @@ class ELGSDPlugin {
         // see if we have any data-localize attributes
         // that means we can skip the rest of the DOM
         el.querySelectorAll(selectorsList).forEach(e => {
-			const source = (e.innerText === '') ? e.innerHTML : e.innerText;
+	    //** SOCKS EDIT START -> Fix hidden DOM crawling not replacing text **//
+	    const source = (e.innerText === '') ? e.innerHTML : e.innerText;
             const s = source.trim();
+	    //** SOCKS EDIT END **//
             e.innerHTML = e.innerHTML.replace(s, this.localize(s));
             if(e.placeholder && e.placeholder.length) {
                 e.placeholder = this.localize(e.placeholder);
