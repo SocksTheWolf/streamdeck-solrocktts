@@ -1,3 +1,6 @@
+# UPDATE
+Due to changes to the Uberduck API and functionality, Solrock will be sunset this Fall. The repository for Solrock will allow you to spin up your own instance and this plugin could be used for your own instances. However, without a public service available, this plugin will not be functional. As such, this repository will be archived. Thank you for using it!
+
 # Solrock TTS Streamdeck Plugin
  A plugin for the Elgato Streamdeck to manage your [Solrock TTS](https://solrock.mmattdonk.com/) without the dashboard open. Currently only supports the Skip TTS function through the API.
  
